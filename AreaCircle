@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class AreaCircle
+{
+    public static void main(String args[])
+    {
+    	Scanner reader = new Scanner(System.in);
+	System.out.print("\nEnter the radius of circle: ");
+	double radius = reader.nextDouble();
+	double area = 3.14 * radius * radius;
+	System.out.print("\nArea of the given circle is "+area);
+    }
+}
+OUTPUT
+Enter the radius of circle: 2.6
+
+Area of the given circle is 21.226400000000005
